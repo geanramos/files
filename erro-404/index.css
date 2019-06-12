@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Glober;
+    font-weight: 300;
+    src: url("./assets/fonts/Glober_Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Glober;
+    font-weight: 500;
+    src: url("./assets/fonts/Glober_Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Glober;
+    font-weight: 700;
+    src: url("./assets/fonts/Glober_xBold.otf") format("opentype");
+}
+
+* {
+    font-family: Glober;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.universe {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background: rgb(5,55,71);
+    background: radial-gradient(circle, rgba(5,55,71,1) 0%, rgba(6,47,59,1) 100%);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/images/bolinhas.png');
+    background-position: center center;
+}
+
+.content {
+    width: 90%;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.header {
+    color: #7a9299;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    top: 0;
+    margin: 0;
+}
+
+h3, h4, h5 {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 120px;
+    margin: 30px 0 0;
+    z-index: 1;
+    position: relative;
+}
+
+h3 {
+    width: 100%;
+    height: 68px;
+    font-family: Glober;
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    text-align: center;
+    margin: 72px 0 5px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #d5dee1;
+    line-height: 24px;
+    margin: 0;
+}
+
+h5 {
+    color: #7a9299;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 15px 0 0;
+}
+
+.header .black-hole {
+    width: 114px;
+    min-width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    background: #062f3b;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 0;
+    position: relative;
+}
+
+#particle {
+    left: -100%;
+    position: absolute;
+    top: -100%;
+    margin-top: -44px;
+    margin-left: -45px;
+    opacity: 1;
+}
+
+.logo {
+    width: 110px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -200px;
+}
+
+@media screen and (max-width: 768px) , screen and (max-height: 700px) {
+    .logo {
+        bottom: -70px;
+    }
+
+    h3 {
+        margin-top: 60px;
+    }
+}
