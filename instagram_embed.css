@@ -1,0 +1,87 @@
+/* instagram_embed.css */
+
+.instagram-media {
+  background: #FFF;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  margin: 1px;
+  max-width: 540px;
+  min-width: 326px;
+  padding: 0;
+  width: 99.375%;
+  width: -webkit-calc(100% - 2px);
+  width: calc(100% - 2px);
+}
+
+.instagram-media a {
+  background: #FFFFFF;
+  line-height: 0;
+  padding: 0 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.instagram-media a div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.instagram-media a div:first-child div:first-child {
+  background-color: #F4F4F4;
+  border-radius: 50%;
+  flex-grow: 0;
+  height: 40px;
+  margin-right: 14px;
+  width: 40px;
+}
+
+.instagram-media a div:first-child div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.instagram-media a div:first-child div:nth-child(2) div:first-child {
+  background-color: #F4F4F4;
+  border-radius: 4px;
+  flex-grow: 0;
+  height: 14px;
+  margin-bottom: 6px;
+  width: 100px;
+}
+
+.instagram-media a div:first-child div:nth-child(2) div:nth-child(2) {
+  background-color: #F4F4F4;
+  border-radius: 4px;
+  flex-grow: 0;
+  height: 14px;
+  width: 60px;
+}
+
+.instagram-media a div:nth-child(2) {
+  padding: 19% 0;
+}
+
+.instagram-media a div:nth-child(3) {
+  display: block;
+  height: 50px;
+  margin: 0 auto 12px;
+  width: 50px;
+}
+
+/* svg styles... (not included for brevity) */
+
+.instagram-media p {
+  color: #c9c8cd;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 0;
+  margin-top: 8px;
+  overflow: hidden;
+  padding: 8px 0 7px;
+  text-align: center;
