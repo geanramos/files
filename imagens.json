@@ -1,54 +1,54 @@
 {
-    "imagens": [
-        {
-            "titulo": "Montanhas",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/montanhas"
-        },
-        {
-            "titulo": "Floresta",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/floresta"
-        },
-        {
-            "titulo": "Praia",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/praia"
-        },
-        {
-            "titulo": "Cachoeira",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/cachoeira"
-        },
-        {
-            "titulo": "Cidade",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/cidade"
-        },
-        {
-            "titulo": "Deserto",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/deserto"
-        },
-        {
-            "titulo": "Lagos",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/lagos"
-        },
-        {
-            "titulo": "Parque",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/parque"
-        },
-        {
-            "titulo": "Montanha-russa",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/montanha-russa"
-        },
-        {
-            "titulo": "Jardim",
-            "imagem": "https://via.placeholder.com/400x300",
-            "link": "https://example.com/jardim"
-        }
-    ]
+  "imagens": [
+    {
+      "titulo": "Imagem 1",
+      "imagem": "https://via.placeholder.com/500/FF5733/FFFFFF",
+      "link": "https://www.example.com/1"
+    },
+    {
+      "titulo": "Imagem 2",
+      "imagem": "https://via.placeholder.com/600/FFC300/FFFFFF",
+      "link": "https://www.example.com/2"
+    },
+    {
+      "titulo": "Imagem 3",
+      "imagem": "https://via.placeholder.com/700/DAF7A6/000000",
+      "link": "https://www.example.com/3"
+    },
+    {
+      "titulo": "Imagem 4",
+      "imagem": "https://via.placeholder.com/800/FF5733/FFFFFF",
+      "link": "https://www.example.com/4"
+    },
+    {
+      "titulo": "Imagem 5",
+      "imagem": "https://via.placeholder.com/900/FFC300/FFFFFF",
+      "link": "https://www.example.com/5"
+    },
+    {
+      "titulo": "Imagem 6",
+      "imagem": "https://via.placeholder.com/1000/DAF7A6/000000",
+      "link": "https://www.example.com/6"
+    },
+    {
+      "titulo": "Imagem 7",
+      "imagem": "https://via.placeholder.com/1100/FF5733/FFFFFF",
+      "link": "https://www.example.com/7"
+    },
+    {
+      "titulo": "Imagem 8",
+      "imagem": "https://via.placeholder.com/1200/FFC300/FFFFFF",
+      "link": "https://www.example.com/8"
+    },
+    {
+      "titulo": "Imagem 9",
+      "imagem": "https://via.placeholder.com/1300/DAF7A6/000000",
+      "link": "https://www.example.com/9"
+    },
+    {
+      "titulo": "Imagem 10",
+      "imagem": "https://via.placeholder.com/1400/FF5733/FFFFFF",
+      "link": "https://www.example.com/10"
+    }
+  ]
 }
