@@ -2,52 +2,52 @@
   "imagens": [
     {
       "titulo": "Imagem 1",
-      "imagem": "https://via.placeholder.com/400/FF5733/FFFFFF",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+1",
       "link": "https://www.example.com/1"
     },
     {
       "titulo": "Imagem 2",
-      "imagem": "https://via.placeholder.com/400/FFC300/FFFFFF",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+2",
       "link": "https://www.example.com/2"
     },
     {
       "titulo": "Imagem 3",
-      "imagem": "https://via.placeholder.com/400/DAF7A6/000000",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+3",
       "link": "https://www.example.com/3"
     },
     {
       "titulo": "Imagem 4",
-      "imagem": "https://via.placeholder.com/400/FF5733/FFFFFF",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+4",
       "link": "https://www.example.com/4"
     },
     {
       "titulo": "Imagem 5",
-      "imagem": "https://via.placeholder.com/400/FFC300/FFFFFF",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+5",
       "link": "https://www.example.com/5"
     },
     {
       "titulo": "Imagem 6",
-      "imagem": "https://via.placeholder.com/400/DAF7A6/000000",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+6",
       "link": "https://www.example.com/6"
     },
     {
       "titulo": "Imagem 7",
-      "imagem": "https://via.placeholder.com/400/FF5733/FFFFFF",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+7",
       "link": "https://www.example.com/7"
     },
     {
       "titulo": "Imagem 8",
-      "imagem": "https://via.placeholder.com/400/FFC300/FFFFFF",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+8",
       "link": "https://www.example.com/8"
     },
     {
       "titulo": "Imagem 9",
-      "imagem": "https://via.placeholder.com/400/DAF7A6/000000",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+9",
       "link": "https://www.example.com/9"
     },
     {
       "titulo": "Imagem 10",
-      "imagem": "https://via.placeholder.com/400/FF5733/FFFFFF",
+      "imagem": "https://via.placeholder.com/400x200?text=Animal+10",
       "link": "https://www.example.com/10"
     }
   ]
