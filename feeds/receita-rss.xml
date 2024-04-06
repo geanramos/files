@@ -1,0 +1,34 @@
+
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>FOGO NA COZINHA</title>
+    <link>https://gean.me/receita/feed2.xml</link>
+    <description>Fogo na Cozinha - A sua salvação culinária!</description>
+    <lastBuildDate>Sat, 06 Apr 2024 01:31:45 -0300</lastBuildDate>
+    <language>pt-BR</language>
+    <item>
+      <title>Shake de abacate</title>
+      <link>https://gean.me/receita/shake-de-abacate/</link>
+      <description>Aprenda a fazer um saudável e cremoso shake de abacate com leite vegetal e whey. Zero lactose e zero glúten.</description>
+      <pubDate>Sat, 06 Apr 2024 01:49:45 -0300</pubDate>
+      <guid isPermaLink="false">https://gean.me/receita/?url=shake-de-abacate/</guid>
+      <enclosure url="https://i1.wp.com/gean.me/wp-content/uploads/shake-de-abacate-1.png?resize=400,261" type="image/png"/>
+    </item>
+    <item>
+      <title>Molho bechamel</title>
+      <link>https://gean.me/receita/molho-bechamel/</link>
+      <description>Quer aprender a fazer um molho bechamel perfeito na sua casa? Confira o passo a passo dessa molho cremoso e delicioso.</description>
+      <pubDate>Sat, 06 Apr 2024 01:31:45 -0300</pubDate>
+      <guid isPermaLink="false">https://gean.me/receita/?url=molho-bechamel</guid>
+      <enclosure url="https://i1.wp.com/gean.me/wp-content/uploads/molho-bechamel-11.jpeg?resize=400,261" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Molho igual do Big Mac para o seu hambúrguer ficar completo</title>
+      <link>https://gean.me/receita/molho-big-mac/</link>
+      <description>Sanduíches e batatas fritas pedem o acompanhamento de um bom molho, não é mesmo? Confira esta receita caseira do molho do Big Mac, aproveite!</description>
+      <pubDate>Sat, 06 Apr 2024 01:31:45 -0300</pubDate>
+      <guid isPermaLink="false">https://gean.me/receita/?url=molho-big-mac</guid>
+      <enclosure url="https://i1.wp.com/gean.me/wp-content/uploads/molho-igual-do-big-mac-1.jpeg?resize=400,261" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
