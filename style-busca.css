@@ -479,6 +479,10 @@ nav.al-right ul li:first-of-type{
 .search ul li{
     color:#777
 }
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    color: #fff;
+}
 @media (max-width:1045px){
     #result{
         margin:0 auto
