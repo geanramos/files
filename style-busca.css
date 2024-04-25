@@ -211,6 +211,10 @@ nav.al-right ul li:first-of-type{
 .search ul li{
     color:#777
 }
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    color: #fff;
+}
 .menu{
     margin:16px 0 5px 0
 }
