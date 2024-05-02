@@ -3,47 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner Aleatório</title>
+    <title>Gerenciador de Banners</title>
 </head>
 <body>
     <div id="bannerContainer" style="text-align: center;">
         <script>
-            // Função para carregar e exibir um banner aleatório
-            function carregarBanner() {
-                // URL do arquivo JSON com os dados dos banners
-                var url = 'banners.json';
+            // Função para carregar e exibir banners aleatórios
+            function loadRandomBanner() {
+                // URL do arquivo JSON
+                var jsonUrl = 'banners.json';
                 
-                // Requisição AJAX para carregar o JSON
+                // Requisição AJAX para carregar o arquivo JSON
                 var xhr = new XMLHttpRequest();
                 xhr.onreadystatechange = function() {
-                    if (xhr.readyState === 4 && xhr.status === 200) {
-                        // Parse do JSON para objeto JavaScript
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        // Parse do JSON para um objeto JavaScript
                         var banners = JSON.parse(xhr.responseText);
                         
                         // Seleciona aleatoriamente um banner
-                        var randomBanner = banners[Math.floor(Math.random() * banners.length)];
+                        var randomIndex = Math.floor(Math.random() * banners.length);
+                        var randomBanner = banners[randomIndex];
                         
-                        // Cria o elemento de imagem e link
+                        // Cria o elemento de link
                         var link = document.createElement('a');
                         link.href = randomBanner.idUrl;
                         link.target = '_blank';
                         
-                        var img = document.createElement('img');
-                        img.src = randomBanner.idImg;
-                        img.style.maxWidth = '728px';
-                        img.alt = 'Banner';
+                        // Cria o elemento de imagem
+                        var image = document.createElement('img');
+                        image.src = randomBanner.idImg;
+                        image.style.maxWidth = '728px';
+                        image.style.borderRadius = '8px';
                         
-                        // Adiciona a imagem ao link e o link ao container de banners
-                        link.appendChild(img);
+                        // Adiciona a imagem ao link e o link ao container
+                        link.appendChild(image);
                         document.getElementById('bannerContainer').appendChild(link);
                     }
                 };
-                xhr.open('GET', url, true);
+                xhr.open('GET', jsonUrl, true);
                 xhr.send();
             }
-
-            // Chamada da função para carregar o banner ao carregar a página
-            window.onload = carregarBanner;
+            
+            // Chamada da função para carregar um banner aleatório ao carregar a página
+            loadRandomBanner();
         </script>
     </div>
 </body>
