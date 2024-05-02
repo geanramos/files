@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerenciador de Banners</title>
+</head>
+<body>
+    <div id="bannerContainer">
+        <?php
+        // Carrega o conteúdo do arquivo JSON
+        $json_data = file_get_contents('banners.json');
+        
+        // Decodifica o JSON para um array PHP
+        $banners = json_decode($json_data, true);
+        
+        // Seleciona aleatoriamente um banner
+        $random_banner = $banners[array_rand($banners)];
+        
+        // Exibe o banner
+        echo '<a href="' . $random_banner['idUrl'] . '" target="_blank">';
+        echo '<img src="' . $random_banner['idImg'] . '" style="max-width: 728px;" alt="Banner">';
+        echo '</a>';
+        ?>
+    </div>
+</body>
+</html>
