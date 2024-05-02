@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Aleatório</title>
+</head>
+<body>
+    <div id="bannerContainer" style="text-align: center;">
+        <script>
+            // Função para carregar e exibir um banner aleatório
+            function carregarBanner() {
+                // URL do arquivo JSON com os dados dos banners
+                var url = 'https://raw.githubusercontent.com/geanramos/files/master/banner/banners.json';
+                
+                // Requisição AJAX para carregar o JSON
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        // Parse do JSON para objeto JavaScript
+                        var banners = JSON.parse(xhr.responseText);
+                        
+                        // Seleciona aleatoriamente um banner
+                        var randomBanner = banners[Math.floor(Math.random() * banners.length)];
+                        
+                        // Cria o elemento de imagem e link
+                        var link = document.createElement('a');
+                        link.href = randomBanner.idUrl;
+                        link.target = '_blank';
+                        
+                        var img = document.createElement('img');
+                        img.src = randomBanner.idImg;
+                        img.style.maxWidth = '728px';
+                        img.alt = 'Banner';
+                        
+                        // Adiciona a imagem ao link e o link ao container de banners
+                        link.appendChild(img);
+                        document.getElementById('bannerContainer').appendChild(link);
+                    }
+                };
+                xhr.open('GET', url, true);
+                xhr.send();
+            }
+
+            // Chamada da função para carregar o banner ao carregar a página
+            window.onload = carregarBanner;
+        </script>
+    </div>
+</body>
+</html>
