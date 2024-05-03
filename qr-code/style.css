@@ -1,37 +1,40 @@
-body {
-    font-family: sans-serif;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-form {
-    margin: 20px auto;
-    width: 300px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"] {
+.main{
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(19deg,#24d4fd 0%,#b721ff); 
 }
-
-button {
-    background-color: #4CAF50;
+h1{
     color: white;
-    padding: 8px 15px;
+    margin: 15px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background: none;
     border: none;
+    border-bottom: 2px solid white;
+    margin: 15px;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 10px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    margin: 15px;
     cursor: pointer;
-}
-
-#qrCodeContainer {
-    margin-top: 20px;
-}
-
-#qrCodeImage {
-    width: 200px;
-    height: 200px;
+    outline: none;
+    background: #b721ff;
+    color: white;
+    border: none;
 }

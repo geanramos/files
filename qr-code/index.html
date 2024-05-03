@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Code Generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>QR Code Generator</h1>
-
-    <form id="qrForm">
-        <label for="urlInput">Enter URL:</label>
-        <input type="text" id="urlInput" name="url" placeholder="https://example.com">
-        <button type="submit">Generate QR Code</button>
-    </form>
-
-    <div id="qrCodeContainer">
-        <h2>QR Code</h2>
-        <img id="qrCodeImage" src="" alt="QR Code">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de qr-code | geanramos.com</title>
+    <link rel="stylesheet" href="style.css?v=2" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Texto para gerar qr-code</h1>
+      <input type="text" name="" id="input" autocomplete="off"/>
+      <button type="submit" onclick="func()" id="submit">
+        Criar QR
+      </button>
+      <img src="" alt="" id="img">
     </div>
-
-    <script src="script.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
