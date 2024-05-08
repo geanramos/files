@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Fonte Geanme</title>
-    <style>
-        /* Importa a fonte Geanme */
+        <style>
         @font-face {
             font-family: 'Geanme';
             src: url('https://cdn.jsdelivr.net/gh/geanramos/files/geanme-Regular.otf') format('opentype'),
@@ -13,7 +12,7 @@
             font-weight: normal;
             font-style: normal;
         }
-        /* Importa a fonte Beauty Wind */
+
         @font-face {
             font-family: 'Beauty Wind';
             src: url('https://cdn.jsdelivr.net/gh/geanramos/files/Beauty-Wind.ttf') format('truetype');
@@ -21,21 +20,19 @@
             font-style: normal;
         }
 
-        /* Aplica a fonte Geanme ao texto */
         body {
-            font-family: 'Geanme', 'Beauty Wind';
+            font-family: 'Geanme', 'Beauty Wind', sans-serif;
         }
 
-        /* Estilos adicionais */
         .container {
-            max-width: 600px;
+            width: 80%;
             margin: 0 auto;
             padding: 20px;
-            text-align: justify;
         }
 
-        h1 {
-            text-align: center;
+        p {
+            font-size: 18px;
+            line-height: 1.5;
         }
     </style>
 </head>
