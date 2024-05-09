@@ -1,30 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Poesia Aleatória</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    #poesia {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desculpas</title>
+    <!-- Meta tags para Facebook -->
+    <meta property="og:url" content="https://dev.geanramos.com.br/files/noemia.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Desculpas">
+    <meta property="og:description" content="Eu não sei como dizer, mas só sei que você É muito especial pra mim, que chegou na minha vida de uma forma inexplicável. ">
+    <meta property="og:image" content="https://dev.geanramos.com.br/files/bg-noemia.JPG">
+    <meta property="og:image:width" content="609"> <!-- Largura da imagem -->
+    <meta property="og:image:height" content="636"> <!-- Altura da imagem -->
+
+    <!-- Meta tags para Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Desculpas">
+    <meta name="twitter:description" content="Eu não sei como dizer, mas só sei que você É muito especial pra mim, que chegou na minha vida de uma forma inexplicável. ">
+    <meta name="twitter:image" content="https://dev.geanramos.com.br/files/bg-noemia.JPG">
+    <style>
+        @font-face {
+            font-family: 'Geanme';
+            src: url('https://cdn.jsdelivr.net/gh/geanramos/files/geanme-Regular.otf') format('opentype'),
+                 url('https://cdn.jsdelivr.net/gh/geanramos/files/geanme-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Geanramoscom';
+            src: url('https://raw.githubusercontent.com/geanramos/files/master/Geanramoscom-Regular.otf') format('opentype'),
+                 url('https://raw.githubusercontent.com/geanramos/files/master/Geanramoscom-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Geanramoscom', sans-serif;
+            background-image: url('https://i.imgur.com/ndaz40b.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Geanme', sans-serif;
+            font-size: 62px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 1.5;
+            font-weight: bold; /* Adicionando negrito */
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 80%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div id="poesia"></div>
-
-  <script>
+    <div class="container">
+        <h1>Para alguém Especial</h1>
+        <p><script>
     // Função para carregar um arquivo JSON
     function carregarJSON(url, callback) {
       var xhr = new XMLHttpRequest();
@@ -50,6 +103,8 @@
 
     // Carregar uma poesia quando a página é carregada
     window.onload = carregarPoesia;
-  </script>
+  </script></p>
+<p>@GeanRamus</p>
+    </div>
 </body>
 </html>
