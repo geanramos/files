@@ -1,66 +1,94 @@
 {
-  "poesias": [
-    {
-      "texto": "Na vida, somos viajantes do tempo, Colecionadores de momentos breves. Entrelaçamos histórias no tecido do universo, Deixando nossas pegadas onde quer que se revele."
-    },
-    {
-      "texto": "Relacionamentos são como pássaros livres, Que voam juntos em céus desconhecidos. Sejam os ventos fortes ou calmos, Eles permanecem, unidos e comprometidos."
-    },
-    {
-      "texto": "Comportamento é a dança das almas, Em um palco de incertezas e escolhas. Mas os passos mais belos são dados, Por aqueles que dançam com amor e nobres escolhas."
-    },
-    {
-      "texto": "Família é a melodia suave que embala, As noites escuras e os dias claros. É o refúgio onde encontramos força, E onde o amor sempre floresce, raro."
-    },
-    {
-      "texto": "Amor é a poesia dos sentidos, Um poema que ecoa em cada respiração. É o sussurro do vento nos ouvidos, E a promessa de uma eterna canção."
-    },
-    {
-      "texto": "Na vida, somos artistas da emoção, Pintando telas com cores da paixão. Cada pincelada é uma expressão do ser, Um reflexo do que somos e queremos viver."
-    },
-    {
-      "texto": "Relacionamentos são como rios que fluem, Às vezes calmos, outras vezes agitados. Navegamos juntos pelas águas da vida, Encontrando beleza na jornada compartilhada."
-    },
-    {
-      "texto": "Comportamento é a linguagem do coração, Falando mais alto do que palavras podem dizer. É a gentileza que suaviza as arestas da vida, E a bondade que ilumina o caminho a percorrer."
-    },
-    {
-      "texto": "Família é o abraço que acolhe e protege, Um vínculo que transcende tempo e espaço. São as raízes que nos mantêm firmes no solo, E as asas que nos permitem voar alto."
-    },
-    {
-      "texto": "Amor é a canção que embala os sonhos, Uma melodia suave que ecoa no ar. É o calor que nos envolve nos dias frios, E a esperança que nos guia em qualquer lugar."
-    },
-    {
-      "texto": "Na vida, somos navegadores dos sonhos, Embarcando em jornadas de autodescoberta. Cada desafio é uma oportunidade de crescimento, E cada vitória é uma conquista merecida."
-    },
-    {
-      "texto": "Relacionamentos são como jardins floridos, Que requerem cuidado constante e atenção. Plantamos sementes de amor e compreensão, Colhendo frutos de felicidade e conexão."
-    },
-    {
-      "texto": "Comportamento é a poesia das ações, Escrita em gestos de bondade e empatia. É o cuidado que dedicamos aos outros, Que reflete a essência de nossa verdadeira harmonia."
-    },
-    {
-      "texto": "Família é o alicerce que sustenta nossos passos, O apoio inabalável em tempos de dificuldade. São os laços de sangue e os laços de alma, Que nos lembram que nunca estamos sozinhos."
-    },
-	{
-	"texto": "Na vida, somos viajantes do tempo, Colecionadores de momentos breves. Entrelaçamos histórias no tecido do universo, Deixando nossas pegadas onde quer que se revele."
-	},
-      { "texto": "Relacionamentos são como pássaros livres, Que voam juntos em céus desconhecidos. Sejam os ventos fortes ou calmos, Eles permanecem, unidos e comprometidos."},
-      { "texto": "Comportamento é a dança das almas, Em um palco de incertezas e escolhas. Mas os passos mais belos são dados, Por aqueles que dançam com amor e nobres escolhas."},
-      { "texto": "Família é a melodia suave que embala, As noites escuras e os dias claros. É o refúgio onde encontramos força, E onde o amor sempre floresce, raro."},
-      { "texto": "Amor é a poesia dos sentidos, Um poema que ecoa em cada respiração. É o sussurro do vento nos ouvidos, E a promessa de uma eterna canção."},
-      { "texto": "Na vida, somos artistas da emoção, Pintando telas com cores da paixão. Cada pincelada é uma expressão do ser, Um reflexo do que somos e queremos viver."},
-      { "texto": "Relacionamentos são como rios que fluem, Às vezes calmos, outras vezes agitados. Navegamos juntos pelas águas da vida, Encontrando beleza na jornada compartilhada."},
-      { "texto": "Comportamento é a linguagem do coração, Falando mais alto do que palavras podem dizer. É a gentileza que suaviza as arestas da vida, E a bondade que ilumina o caminho a percorrer."},
-      { "texto": "Família é o abraço que acolhe e protege, Um vínculo que transcende tempo e espaço. São as raízes que nos mantêm firmes no solo, E as asas que nos permitem voar alto."},
-      { "texto": "Amor é a canção que embala os sonhos, Uma melodia suave que ecoa no ar. É o calor que nos envolve nos dias frios, E a esperança que nos guia em qualquer lugar."},
-      { "texto": "Na vida, somos navegadores dos sonhos, Embarcando em jornadas de autodescoberta. Cada desafio é uma oportunidade de crescimento, E cada vitória é uma conquista merecida."},
-      { "texto": "Relacionamentos são como jardins floridos, Que requerem cuidado constante e atenção. Plantamos sementes de amor e compreensão, Colhendo frutos de felicidade e conexão."},
-      { "texto": "Comportamento é a poesia das ações, Escrita em gestos de bondade e empatia. É o cuidado que dedicamos aos outros, Que reflete a essência de nossa verdadeira harmonia."},
-      { "texto": "Família é o alicerce que sustenta nossos passos, O apoio inabalável em tempos de dificuldade. São os laços de sangue e os laços de alma, Que nos lembram que nunca estamos sozinhos."},
-      { "texto": "Amor é a luz que brilha no coração humano, Um fogo que queima eternamente. É a força que nos impulsiona adiante, E a razão pela qual vale a pena viver plenamente."},
-    {
-      "texto": "Amor é a luz que brilha no coração humano, Um fogo que queima eternamente. É a força que nos impulsiona adiante, E a razão pela qual vale a pena viver plenamente."
-    }
-  ]
+"poesias": [
+{
+"texto": "Na vida, somos viajantes do tempo, Colecionadores de momentos breves. Entrelaçamos histórias no tecido do universo, Deixando nossas pegadas onde quer que se revele."
+},
+{
+"texto": "Relacionamentos são como pássaros livres, Que voam juntos em céus desconhecidos. Sejam os ventos fortes ou calmos, Eles permanecem, unidos e comprometidos."
+},
+{
+"texto": "Comportamento é a dança das almas, Em um palco de incertezas e escolhas. Mas os passos mais belos são dados, Por aqueles que dançam com amor e nobres escolhas."
+},
+{
+"texto": "Família é a melodia suave que embala, As noites escuras e os dias claros. É o refúgio onde encontramos força, E onde o amor sempre floresce, raro."
+},
+{
+"texto": "Amor é a poesia dos sentidos, Um poema que ecoa em cada respiração. É o sussurro do vento nos ouvidos, E a promessa de uma eterna canção."
+},
+{
+"texto": "Na vida, somos artistas da emoção, Pintando telas com cores da paixão. Cada pincelada é uma expressão do ser, Um reflexo do que somos e queremos viver."
+},
+{
+"texto": "Relacionamentos são como rios que fluem, Às vezes calmos, outras vezes agitados. Navegamos juntos pelas águas da vida, Encontrando beleza na jornada compartilhada."
+},
+{
+"texto": "Comportamento é a linguagem do coração, Falando mais alto do que palavras podem dizer. É a gentileza que suaviza as arestas da vida, E a bondade que ilumina o caminho a percorrer."
+},
+{
+"texto": "Família é o abraço que acolhe e protege, Um vínculo que transcende tempo e espaço. São as raízes que nos mantêm firmes no solo, E as asas que nos permitem voar alto."
+},
+{
+"texto": "Amor é a canção que embala os sonhos, Uma melodia suave que ecoa no ar. É o calor que nos envolve nos dias frios, E a esperança que nos guia em qualquer lugar."
+},
+{
+"texto": "Na vida, somos navegadores dos sonhos, Embarcando em jornadas de autodescoberta. Cada desafio é uma oportunidade de crescimento, E cada vitória é uma conquista merecida."
+},
+{
+"texto": "Relacionamentos são como jardins floridos, Que requerem cuidado constante e atenção. Plantamos sementes de amor e compreensão, Colhendo frutos de felicidade e conexão."
+},
+{
+"texto": "Comportamento é a poesia das ações, Escrita em gestos de bondade e empatia. É o cuidado que dedicamos aos outros, Que reflete a essência de nossa verdadeira harmonia."
+},
+{
+"texto": "Família é o alicerce que sustenta nossos passos, O apoio inabalável em tempos de dificuldade. São os laços de sangue e os laços de alma, Que nos lembram que nunca estamos sozinhos."
+},
+{
+"texto": "Na vida, somos viajantes do tempo, Colecionadores de momentos breves. Entrelaçamos histórias no tecido do universo, Deixando nossas pegadas onde quer que se revele."
+},
+{
+"texto": "Relacionamentos são como pássaros livres, Que voam juntos em céus desconhecidos. Sejam os ventos fortes ou calmos, Eles permanecem, unidos e comprometidos."
+},
+{
+"texto": "Comportamento é a dança das almas, Em um palco de incertezas e escolhas. Mas os passos mais belos são dados, Por aqueles que dançam com amor e nobres escolhas."
+},
+{
+"texto": "Família é a melodia suave que embala, As noites escuras e os dias claros. É o refúgio onde encontramos força, E onde o amor sempre floresce, raro."
+},
+{
+"texto": "Amor é a poesia dos sentidos, Um poema que ecoa em cada respiração. É o sussurro do vento nos ouvidos, E a promessa de uma eterna canção."
+},
+{
+"texto": "Na vida, somos artistas da emoção, Pintando telas com cores da paixão. Cada pincelada é uma expressão do ser, Um reflexo do que somos e queremos viver."
+},
+{
+"texto": "Relacionamentos são como rios que fluem, Às vezes calmos, outras vezes agitados. Navegamos juntos pelas águas da vida, Encontrando beleza na jornada compartilhada."
+},
+{
+"texto": "Comportamento é a linguagem do coração, Falando mais alto do que palavras podem dizer. É a gentileza que suaviza as arestas da vida, E a bondade que ilumina o caminho a percorrer."
+},
+{
+"texto": "Família é o abraço que acolhe e protege, Um vínculo que transcende tempo e espaço. São as raízes que nos mantêm firmes no solo, E as asas que nos permitem voar alto."
+},
+{
+"texto": "Amor é a canção que embala os sonhos, Uma melodia suave que ecoa no ar. É o calor que nos envolve nos dias frios, E a esperança que nos guia em qualquer lugar."
+},
+{
+"texto": "Na vida, somos navegadores dos sonhos, Embarcando em jornadas de autodescoberta. Cada desafio é uma oportunidade de crescimento, E cada vitória é uma conquista merecida."
+},
+{
+"texto": "Relacionamentos são como jardins floridos, Que requerem cuidado constante e atenção. Plantamos sementes de amor e compreensão, Colhendo frutos de felicidade e conexão."
+},
+{
+"texto": "Comportamento é a poesia das ações, Escrita em gestos de bondade e empatia. É o cuidado que dedicamos aos outros, Que reflete a essência de nossa verdadeira harmonia."
+},
+{
+"texto": "Família é o alicerce que sustenta nossos passos, O apoio inabalável em tempos de dificuldade. São os laços de sangue e os laços de alma, Que nos lembram que nunca estamos sozinhos."
+},
+{
+"texto": "Amor é a luz que brilha no coração humano, Um fogo que queima eternamente. É a força que nos impulsiona adiante, E a razão pela qual vale a pena viver plenamente."
+},
+{
+"texto": "Amor é a luz que brilha no coração humano, Um fogo que queima eternamente. É a força que nos impulsiona adiante, E a razão pela qual vale a pena viver plenamente."
+}
+]
 }
